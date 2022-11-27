@@ -1,0 +1,22 @@
+#form {
+  background-color: rgba(247, 240, 240, 0.616);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.input-group {
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+
+.map {
+  float: left;
+  width: 75%;
+  border-radius: 20px;
+  border: 1px solid black;
+}

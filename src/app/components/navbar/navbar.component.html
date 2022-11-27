@@ -1,0 +1,95 @@
+<nav class="navbar navbar-expand-lg" style="background-color: rgb(194, 66, 66);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/Inicio">
+      <img src="../assets/img/newspaper.png" alt="">
+      <b>NACIÓN DEPORTES</b>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/Inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/QuienesSomos">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Testimonios">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Contactanos">Contactanos</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-primary me-2" type="button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">REGISTRARSE</button>
+        <button class="btn btn-success me-2" type="submit">INGRESAR</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">FORMULARIO DE REGISTRO</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="input-group mb-3 mt-3 w-100 me-3">
+          <span class="input-group-text" id="basic-addon1">
+            <i class='bx bxs-id-card'></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Identificación" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3 w-100 me-3">
+          <span class="input-group-text" id="basic-addon1">
+            <i class='bx bxs-user'></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Nombres" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3 w-100 me-3">
+          <span class="input-group-text" id="basic-addon1">
+            <i class='bx bxs-user'></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Apellidos" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3 w-100 me-3">
+          <span class="input-group-text" id="basic-addon1">
+            <i class='bx bxs-envelope'></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Correo Electronico" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3 w-100 me-3">
+          <span class="input-group-text" id="basic-addon1">
+            <i class='bx bxs-lock-open'></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username"
+              aria-describedby="basic-addon1">
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-success">ACEPTAR</button>
+      </div>
+    </div>
+  </div>
+</div>
